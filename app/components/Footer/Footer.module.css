@@ -1,0 +1,94 @@
+.footer{
+    padding: 2rem 4rem;
+    background-image: url("../../../public/af5a9184dd9fcf61a3aa905498126eeb.png");
+}
+
+.footerContainer{
+    background-color: white !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+    border-radius: 10px    ;
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.grid{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.card{
+    border: 1px solid #ebebeb;
+    padding: 1rem;
+    text-align: center;
+}
+
+.innerCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card h3{
+    margin-top: 0.5px;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.cardContent{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+.card p{
+    color: #52525B;
+}
+
+.tffButtonFilled{
+    background-color: #7261FF;
+    color: white;
+    border: none;
+    padding: 0.3rem 1.5rem;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tffButton{
+    width: 100%;
+    color: #2F2F2F;
+    border: 1px solid #2F2F2F;
+    padding: 0.3rem 1.5rem;
+    border-radius: 5px;
+    border: 1px solid #B2B2B2;
+    cursor: pointer;
+}
+.tffButton:hover{
+    background-color: #7261FF;
+    color: white;
+    border: none;
+    padding: 0.3rem 1.5rem;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 480px) {
+    .grid{
+        grid-template-columns: 1fr;
+    }
+}

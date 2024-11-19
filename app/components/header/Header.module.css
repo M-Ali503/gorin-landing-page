@@ -43,3 +43,13 @@
 .tryButton:hover{
     background-color: #372d90;
 }
+
+
+@media (max-width: 768px) {
+    .navigation{
+       display: none;
+    }
+    .tryButton{
+        padding: 0.5rem;
+    }
+}
